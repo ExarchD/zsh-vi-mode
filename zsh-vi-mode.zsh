@@ -3604,6 +3604,7 @@ function zvm_init() {
   # Fix BACKSPACE was stuck in zsh
   # Since normally '^?' (backspace) is bound to vi-backward-delete-char
   zvm_bindkey viins '^?' backward-delete-char
+  zvm_bindkey viins '^H' backward-delete-char
 
   # Initialize ZVM_MODE value
   case ${ZVM_LINE_INIT_MODE:-$ZVM_MODE_INSERT} in
