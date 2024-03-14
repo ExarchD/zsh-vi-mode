@@ -3601,6 +3601,7 @@ function zvm_init() {
   # Moving around surrounds
   zvm_bindkey vicmd '%' zvm_move_around_surround
 
+
   # Fix BACKSPACE was stuck in zsh
   # Since normally '^?' (backspace) is bound to vi-backward-delete-char
   zvm_bindkey viins '^?' backward-delete-char
