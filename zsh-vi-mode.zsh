@@ -3607,6 +3607,7 @@ function zvm_init() {
   zvm_bindkey viins '^H' backward-delete-char
 
 
+
   # Initialize ZVM_MODE value
   case ${ZVM_LINE_INIT_MODE:-$ZVM_MODE_INSERT} in
     $ZVM_MODE_INSERT) ZVM_MODE=$ZVM_MODE_INSERT;;
